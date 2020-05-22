@@ -5,8 +5,9 @@ def count_strings(array)
   if element.class == String 
     array_new << element
     end 
-    array_new.length
-}
+    array_new.length 
+  }
+end 
 
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
